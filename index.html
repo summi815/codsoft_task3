@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Developer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; 
+            color: #9615DB; 
+        }
+
+        header {
+            
+            color:#C3073F;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+             
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ecf0f1; 
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color:white; 
+            border-radius: 8px;
+        }
+
+        footer {
+             
+            color: #ecf0f1; 
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .project a {
+            color: #3498db; 
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>SUMMI</h1>
+        <p>Web Developer</p>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="img.png.jpg" alt="SUMMI">
+        <p>Hello, I'm Summi, Web Developer with proficiency in HTML and CSS, incorporating JavaScript for enhanced functionality. Skilled in crafting visually appealing and responsive websites. Dedicated to creating seamless user experiences."</p>  </section>
+           <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Python</li>
+
+        </ul>
+    </section>
+
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><a href="https://summi815.github.io/codsoft_task1/" target="_blank">1.Calculator</a></h3>
+            <p>Developed a responsive HTML and CSS calculator for basic arithmetic operations. User-friendly interface with clear and reset options.</p>
+        </div>
+        <div class="project">
+            <h3><a href=" https://summi815.github.io/codsoft_task2/" target="_blank">2.Landing Page </a></h3>
+            <p>Crafted a captivating landing page using HTML and CSS. Responsive design ensures a seamless user experience. Highlights key features and invites engagement. </p>
+        </div>
+        <div class="project">
+            <h3><a href=" https://summi815.github.io/bharat_intern_task/" target="_blank">3.Portfolio </a></h3>
+            <p>Designed a personal portfolio website showcasing skills, projects, and achievements. HTML and CSS create a visually appealing and responsive layout.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/summi815/bharat_intern_task2" target="_blank">4.Weather fetching app</a></h3>
+            <p>Developed a weather application utilizing APIs. Users can input a location, and the app fetches real-time weather data, displaying temperature, conditions, and more. Enhances user experience with dynamic, live updates.</p>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="/submit_contact_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <ul class="social-media-links">
+            <li><a href="https://twitter.com/yourusername" target="_blank">Instagram</a></li>
+            <li><a href="https://facebook.com/yourusername" target="_blank">Linkdln</a></li>
+            <li><a href="https://facebook.com/yourusername" target="_blank">Facebook</a></li>
+        </ul>
+        <p>Visit us at: jagtap chowk, Wanawadi.</p>
+
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Your Developer Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
